@@ -1,0 +1,13 @@
+{
+  "board": {
+    "type": "scrum",
+    "name": "JSYNC Scrum Board",
+    "columns": ["To Do", "In Progress", "Review", "Done"],
+    "initial_assignments": {
+      "To Do": ["JSYNC-101", "JSYNC-102", "JSYNC-201"],
+      "In Progress": [],
+      "Review": [],
+      "Done": []
+    }
+  }
+}
