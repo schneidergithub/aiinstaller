@@ -1,0 +1,210 @@
+{
+  "project": {
+    "project_key": "JSYNC",
+    "name": "Jira Github Sync Project",
+    "description": "A PMaC-powered meta-project to sync GitHub and Jira based on JSON plans."
+  },
+  "epics": [
+    {
+      "id": "E1",
+      "title": "Repository Setup",
+      "description": "Bootstrap the project structure, dependencies, and scaffolding.",
+      "stories": [
+        "JSYNC-101",
+        "JSYNC-102"
+      ]
+    },
+    {
+      "id": "E2",
+      "title": "GitHub Sync Tooling",
+      "description": "Generate and execute GitHub CLI/API commands.",
+      "stories": [
+        "JSYNC-201",
+        "JSYNC-202",
+        "JSYNC-203"
+      ]
+    },
+    {
+      "id": "E3",
+      "title": "Jira Sync Tooling",
+      "description": "Construct Jira issue payloads and board definitions.",
+      "stories": [
+        "JSYNC-301",
+        "JSYNC-302"
+      ]
+    },
+    {
+      "id": "E4",
+      "title": "Validation and Testing",
+      "description": "Ensure schema compliance and project integrity.",
+      "stories": [
+        "JSYNC-401",
+        "JSYNC-402"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "id": "JSYNC-101",
+      "epic_id": "E1",
+      "summary": "Scaffold project repo structure",
+      "description": "Create directories for scripts, schemas, prompts, and data.",
+      "story_points": 2,
+      "labels": [
+        "scaffolding",
+        "setup"
+      ],
+      "status": "To Do"
+    },
+    {
+      "id": "JSYNC-102",
+      "epic_id": "E1",
+      "summary": "Add pyproject.toml and Dockerfile",
+      "description": "Define Python packaging and containerization setup.",
+      "story_points": 2,
+      "labels": [
+        "infrastructure",
+        "docker"
+      ],
+      "status": "To Do"
+    },
+    {
+      "id": "JSYNC-201",
+      "epic_id": "E2",
+      "summary": "Generate GitHub issues from stories",
+      "description": "Use the CLI or API to create issues per story.",
+      "story_points": 3,
+      "labels": [
+        "github",
+        "issues"
+      ],
+      "status": "To Do"
+    },
+    {
+      "id": "JSYNC-202",
+      "epic_id": "E2",
+      "summary": "Create GitHub views",
+      "description": "Auto-create Kanban and Sprint views using GitHub CLI.",
+      "story_points": 2,
+      "labels": [
+        "github",
+        "board"
+      ],
+      "status": "To Do"
+    },
+    {
+      "id": "JSYNC-203",
+      "epic_id": "E2",
+      "summary": "Assign stories to GitHub views",
+      "description": "Link issues to project columns and milestones.",
+      "story_points": 2,
+      "labels": [
+        "github",
+        "automation"
+      ],
+      "status": "To Do"
+    },
+    {
+      "id": "JSYNC-301",
+      "epic_id": "E3",
+      "summary": "Create Jira issues for each story",
+      "description": "Generate issue payloads using Jira API v3.",
+      "story_points": 3,
+      "labels": [
+        "jira",
+        "api"
+      ],
+      "status": "To Do"
+    },
+    {
+      "id": "JSYNC-302",
+      "epic_id": "E3",
+      "summary": "Create Jira board and sprints",
+      "description": "Use Jira API to define board views and sprint cadence.",
+      "story_points": 3,
+      "labels": [
+        "jira",
+        "board"
+      ],
+      "status": "To Do"
+    },
+    {
+      "id": "JSYNC-401",
+      "epic_id": "E4",
+      "summary": "Add JSON schema validation",
+      "description": "Create schema files and validate all modular inputs.",
+      "story_points": 2,
+      "labels": [
+        "schema",
+        "validation"
+      ],
+      "status": "To Do"
+    },
+    {
+      "id": "JSYNC-402",
+      "epic_id": "E4",
+      "summary": "Add CI pipeline with dry-run support",
+      "description": "Use GitHub Actions to validate and simulate sync on PR.",
+      "story_points": 3,
+      "labels": [
+        "ci",
+        "testing"
+      ],
+      "status": "To Do"
+    }
+  ],
+  "sprints": [
+    {
+      "name": "Sprint 1",
+      "start_date": "2025-05-13",
+      "end_date": "2025-05-24",
+      "stories": [
+        "JSYNC-101",
+        "JSYNC-102",
+        "JSYNC-201"
+      ]
+    },
+    {
+      "name": "Sprint 2",
+      "start_date": "2025-05-27",
+      "end_date": "2025-06-07",
+      "stories": [
+        "JSYNC-202",
+        "JSYNC-203",
+        "JSYNC-301"
+      ]
+    },
+    {
+      "name": "Sprint 3",
+      "start_date": "2025-06-10",
+      "end_date": "2025-06-21",
+      "stories": [
+        "JSYNC-302",
+        "JSYNC-401",
+        "JSYNC-402"
+      ]
+    }
+  ],
+  "views": [
+    {
+      "type": "kanban",
+      "name": "Kanban Board",
+      "columns": [
+        "To Do",
+        "In Progress",
+        "Review",
+        "Done"
+      ]
+    },
+    {
+      "type": "table",
+      "name": "Sprint Planning Table",
+      "columns": [
+        "Story",
+        "Points",
+        "Sprint",
+        "Status"
+      ]
+    }
+  ]
+}

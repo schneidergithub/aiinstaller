@@ -1,0 +1,39 @@
+[
+  {
+    "id": "E1",
+    "title": "Repo Bootstrap",
+    "description": "Initial setup and tooling",
+    "stories": [
+      "JSYNC-101",
+      "JSYNC-102"
+    ]
+  },
+  {
+    "id": "E2",
+    "title": "GitHub Sync",
+    "description": "Sync stories and board to GitHub",
+    "stories": [
+      "JSYNC-201",
+      "JSYNC-202",
+      "JSYNC-203"
+    ]
+  },
+  {
+    "id": "E3",
+    "title": "Jira Sync",
+    "description": "Sync stories and board to Jira",
+    "stories": [
+      "JSYNC-301",
+      "JSYNC-302"
+    ]
+  },
+  {
+    "id": "E4",
+    "title": "Validation and Testing",
+    "description": "JSON schema, dry-run mode, CI integration",
+    "stories": [
+      "JSYNC-401",
+      "JSYNC-402"
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Sprint 1",
+    "start_date": "2025-05-13",
+    "end_date": "2025-05-24",
+    "stories": [
+      "JSYNC-101",
+      "JSYNC-102",
+      "JSYNC-201"
+    ]
+  },
+  {
+    "name": "Sprint 2",
+    "start_date": "2025-05-27",
+    "end_date": "2025-06-07",
+    "stories": [
+      "JSYNC-202",
+      "JSYNC-203",
+      "JSYNC-301"
+    ]
+  },
+  {
+    "name": "Sprint 3",
+    "start_date": "2025-06-10",
+    "end_date": "2025-06-21",
+    "stories": [
+      "JSYNC-302",
+      "JSYNC-401",
+      "JSYNC-402"
+    ]
+  }
+]

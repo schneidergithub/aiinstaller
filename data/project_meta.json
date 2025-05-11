@@ -1,0 +1,5 @@
+{
+  "project_key": "JSYNC",
+  "name": "Jira Github Sync Project",
+  "description": "A PMaC-powered system to sync GitHub and Jira using JSON as the source of truth."
+}

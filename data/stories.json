@@ -1,0 +1,110 @@
+[
+  {
+    "id": "JSYNC-101",
+    "epic_id": "E1",
+    "summary": "Create folder structure and starter files",
+    "description": "Scaffold the starter layout with placeholders and README.",
+    "story_points": 2,
+    "labels": [
+      "setup",
+      "scaffolding"
+    ],
+    "status": "To Do"
+  },
+  {
+    "id": "JSYNC-102",
+    "epic_id": "E1",
+    "summary": "Add pyproject.toml and base Dockerfile",
+    "description": "Set up initial dependencies and container structure.",
+    "story_points": 2,
+    "labels": [
+      "docker",
+      "dependencies"
+    ],
+    "status": "To Do"
+  },
+  {
+    "id": "JSYNC-201",
+    "epic_id": "E2",
+    "summary": "Parse merged JSON and sync GitHub issues",
+    "description": "Implement sync_to_github.py to create/update issues.",
+    "story_points": 3,
+    "labels": [
+      "github",
+      "sync"
+    ],
+    "status": "To Do"
+  },
+  {
+    "id": "JSYNC-202",
+    "epic_id": "E2",
+    "summary": "Create GitHub project views",
+    "description": "Use GitHub CLI to create Kanban and Sprint views.",
+    "story_points": 2,
+    "labels": [
+      "github",
+      "board"
+    ],
+    "status": "To Do"
+  },
+  {
+    "id": "JSYNC-203",
+    "epic_id": "E2",
+    "summary": "Assign GitHub issues to views/sprints",
+    "description": "Apply labels, milestones, or project board IDs.",
+    "story_points": 2,
+    "labels": [
+      "github",
+      "automation"
+    ],
+    "status": "To Do"
+  },
+  {
+    "id": "JSYNC-301",
+    "epic_id": "E3",
+    "summary": "Sync Jira issues from JSON",
+    "description": "Use Jira API to mirror stories and epics.",
+    "story_points": 3,
+    "labels": [
+      "jira",
+      "sync"
+    ],
+    "status": "To Do"
+  },
+  {
+    "id": "JSYNC-302",
+    "epic_id": "E3",
+    "summary": "Create Jira Scrum Board from config",
+    "description": "Automate board and swimlane setup.",
+    "story_points": 3,
+    "labels": [
+      "jira",
+      "board"
+    ],
+    "status": "To Do"
+  },
+  {
+    "id": "JSYNC-401",
+    "epic_id": "E4",
+    "summary": "Create JSON schema for all input files",
+    "description": "Ensure validation of stories, epics, etc.",
+    "story_points": 2,
+    "labels": [
+      "schema",
+      "validation"
+    ],
+    "status": "To Do"
+  },
+  {
+    "id": "JSYNC-402",
+    "epic_id": "E4",
+    "summary": "Implement dry-run mode and GitHub Actions CI",
+    "description": "Run validation and merge on PR push.",
+    "story_points": 3,
+    "labels": [
+      "ci",
+      "testing"
+    ],
+    "status": "To Do"
+  }
+]
