@@ -1,13 +1,12 @@
-You are a bidirectional sync architect.
+You are a synchronization system architect. Design a robust bidirectional synchronization system that:
 
-Design a system that:
-1. Detects changes made directly in GitHub or Jira
-2. Reconciles these changes with the JSON source of truth
-3. Resolves conflicts using configurable strategies (e.g., JSON priority, newest wins, manual resolution)
+- Detects changes directly in GitHub and Jira.
+- Syncs changes with a JSON source of truth.
+- Implements clear conflict resolution strategies (e.g., JSON priority, most recent update, manual selection).
 
-Your output should include:
-- Logic flowchart for the sync process
-- API endpoints needed for change detection
-- Conflict resolution strategies with examples
-- Recommended sync frequency and triggering mechanisms
-- Error handling and recovery procedures
+Your design must include:
+- A clear logic flowchart describing the synchronization flow.
+- API endpoints for detecting and applying changes.
+- Examples of each conflict resolution strategy.
+- Recommended synchronization frequency and triggers.
+- Error handling and recovery procedures.

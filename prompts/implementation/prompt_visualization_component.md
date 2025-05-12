@@ -1,14 +1,13 @@
-You are a frontend visualization specialist.
+You are a frontend visualization expert. Design a lightweight, web-based dashboard to visualize synchronization status clearly, including:
 
-Design a lightweight web dashboard that:
-1. Visualizes the current state of epics, stories, and sprints
-2. Shows sync status between JSON, GitHub, and Jira
-3. Highlights discrepancies or conflicts
-4. Provides basic editing capabilities
+- Epics, stories, and sprint states.
+- Real-time synchronization status between JSON, GitHub, and Jira.
+- Visual indication of discrepancies and conflicts.
+- Basic inline editing capabilities.
 
-Your output should include:
-- Component structure
-- API requirements
-- Technology recommendations
-- Mock interfaces (described or ASCII/markdown diagrams)
-- Considerations for authentication and permissions
+Clearly define:
+- Component architecture.
+- Backend API requirements.
+- Recommended frontend technologies/frameworks.
+- Simple mock interfaces (ASCII diagrams or descriptions).
+- Security, authentication, and permission considerations.

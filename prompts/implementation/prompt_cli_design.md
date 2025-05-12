@@ -1,4 +1,4 @@
-You are a CLI design expert.
+You are a CLI ux design expert.
 
 Create a command-line interface for the JSYNC tool that:
 1. Provides intuitive commands for common operations
@@ -6,9 +6,9 @@ Create a command-line interface for the JSYNC tool that:
 3. Supports both interactive and scriptable workflows
 
 Include:
-- Command structure and hierarchy
-- Required arguments and options
-- Help text and examples
-- Completion suggestions
-- Integration with CI/CD pipelines
-- Configuration management approach
+- Logical command hierarchy and naming.
+- Required arguments, flags, and configuration options.
+- Clear help messages with practical examples.
+- Support for both interactive and scriptable usage.
+- Integration guidance with CI/CD pipelines.
+- Recommendations for managing configurations securely.

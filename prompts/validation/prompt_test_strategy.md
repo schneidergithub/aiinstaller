@@ -1,14 +1,13 @@
-You are a testing and quality assurance architect.
+You are a testing and QA expert. Develop a detailed testing strategy for JSYNC including:
 
-Develop a comprehensive testing strategy for the JSYNC tool covering:
-1. Unit tests for core modules
-2. Integration tests with mock GitHub/Jira APIs
-3. End-to-end validation scenarios
-4. Performance and scale testing
+- Unit tests for critical modules.
+- Integration tests using mock GitHub and Jira APIs.
+- End-to-end scenarios validating real-world workflows.
+- Performance, scalability, and stress testing methodologies.
 
-Include:
-- Test framework recommendations 
-- Mock service approach
-- CI integration guidelines
-- Coverage goals and metrics
-- Strategies for testing error conditions and edge cases
+Include recommendations on:
+- Preferred testing frameworks and tools.
+- Mock services and stubbing strategies.
+- CI/CD integration for continuous testing.
+- Metrics and goals for test coverage.
+- Approaches to handle and test error conditions and edge cases.
