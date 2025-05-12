@@ -18,6 +18,9 @@ PROJECT_NAME="${PROJECT_NAME:-Scrum Board}"
 USER="${USER:-schneidergithub}"
 INIT_REPO="${INIT_REPO:-false}"
 
+
+echo "📄 Creating issues from data/stories.json..."
+python3 scripts/create_issues_from_json.py
 # Argument parsing
 while [[ $# -gt 0 ]]; do
   case "$1" in
